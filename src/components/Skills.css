@@ -1,0 +1,34 @@
+.skills-section {
+    padding: 20px;
+  }
+  
+  .skills-category {
+    margin-bottom: 30px; /* Adds space between categories */
+  }
+  
+  .skills-category h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .skills-category ul {
+    list-style-type: none; /* Remove default list markers (checkmarks) */
+    padding-left: 0; /* Remove default padding */
+  }
+  
+  .skills-category li {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .skills-category li:before {
+    content: "•"; /* Adds a custom bullet point */
+    margin-right: 10px;
+    color: #555; /* Change the bullet color as desired */
+  }
+  
+  .programming-languages, .tools, .workflow {
+    margin-bottom: 40px; /* Adds extra space between the sections */
+  }
+  
+  

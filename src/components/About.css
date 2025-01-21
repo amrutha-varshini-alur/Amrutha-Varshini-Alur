@@ -1,0 +1,31 @@
+/* About Section CSS */
+.about-section {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    margin: 50px auto;
+    max-width: 900px;
+    border-radius: 10px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 1s ease-in-out;
+  }
+  
+  .about-section.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  

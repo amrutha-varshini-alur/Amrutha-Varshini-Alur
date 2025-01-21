@@ -1,0 +1,86 @@
+/* Projects Section CSS */
+.projects-section {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+    display: flex; /* Flexbox layout */
+    flex-wrap: wrap; /* Allow wrapping of items to the next line */
+    justify-content: center; /* Center the cards horizontally */
+    gap: 20px; /* Add space between cards */
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensure the content is distributed evenly */
+    height: 100%; /* Ensure all cards have the same height */
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .project-info {
+    padding: 20px;
+  }
+  
+  .project-info h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .project-info p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .project-info a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .project-info a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for unordered lists */
+  .project-info ul {
+    text-align: left;
+    font-size: 1rem;
+    color: #555;
+    margin-left: 20px;
+    list-style-type: disc; /* Bullet points */
+    padding-left: 20px; /* Ensure proper alignment */
+  }
+  
+  .project-info ul li {
+    margin-bottom: 10px;
+    list-style-type: disc; /* Default bullet points */
+    list-style-position: outside; /* Ensure bullets are outside the text */
+  }
+  
+  /* Remove tick marks if any were previously added via ::before */
+  .project-info ul li::before {
+    content: none !important; /* Remove any custom ticks */
+  }
+  
