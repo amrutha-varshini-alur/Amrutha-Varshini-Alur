@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://amrutha-varshini-alur.github.io/Amrutha-Varshini-Alur",
-  
   "dependencies": {
     "cra-template": "1.2.0",
     "lucide-react": "^0.473.0",
