@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Amrutha-Varshini-Alur/static/css/main.1ebc5186.css",
-    "main.js": "/Amrutha-Varshini-Alur/static/js/main.661f38f8.js",
-    "static/js/488.9561f9b8.chunk.js": "/Amrutha-Varshini-Alur/static/js/488.9561f9b8.chunk.js",
-    "static/media/profile.jpg": "/Amrutha-Varshini-Alur/static/media/profile.54a257e6b47c5a2ef93c.jpg",
-    "index.html": "/Amrutha-Varshini-Alur/index.html",
-    "main.1ebc5186.css.map": "/Amrutha-Varshini-Alur/static/css/main.1ebc5186.css.map",
-    "main.661f38f8.js.map": "/Amrutha-Varshini-Alur/static/js/main.661f38f8.js.map",
-    "488.9561f9b8.chunk.js.map": "/Amrutha-Varshini-Alur/static/js/488.9561f9b8.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.1ebc5186.css",
+    "main.js": "/portfolio/static/js/main.b016d546.js",
+    "static/js/488.9561f9b8.chunk.js": "/portfolio/static/js/488.9561f9b8.chunk.js",
+    "static/media/profile.jpg": "/portfolio/static/media/profile.54a257e6b47c5a2ef93c.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.1ebc5186.css.map": "/portfolio/static/css/main.1ebc5186.css.map",
+    "main.b016d546.js.map": "/portfolio/static/js/main.b016d546.js.map",
+    "488.9561f9b8.chunk.js.map": "/portfolio/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ebc5186.css",
-    "static/js/main.661f38f8.js"
+    "static/js/main.b016d546.js"
   ]
 }
